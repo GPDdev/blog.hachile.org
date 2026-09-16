@@ -15,9 +15,15 @@ export type BackgroundWallpaperConfig = {
 	common?: {
 		dimOpacity?: number; // 横幅文字遮罩暗度，0-1之间，值越大越暗，默认0.15
 		playerMode?: "order" | "random"; // 多视频播放模式："order" 顺序循环（默认），"random" 随机切换
+		homeBackground?: {
+			light: string; // 首页亮色模式背景
+			dark: string; // 首页暗色模式背景
+			position?: string; // 首页背景位置，支持 CSS background-position
+		};
 		homeText?: {
 			enable: boolean; // 是否在首页显示自定义文字（全局开关）
 			title?: string; // 主标题
+			titleDark?: string; // 暗色模式主标题
 			subtitle?: string | string[]; // 副标题，支持单个字符串或字符串数组
 			titleSize?: string; // 主标题字体大小，如 "3.5rem"
 			subtitleSize?: string; // 副标题字体大小，如 "1.5rem"

@@ -54,12 +54,20 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		dimOpacity: 0.2,
 		// 多视频播放模式："order" 顺序循环，"random" 随机切换（仅当 playerUrl 为数组时生效）
 		playerMode: "random",
+		// 首页背景随明暗主题切换，其他页面继续使用上方的默认壁纸
+		homeBackground: {
+			light: "/assets/images/matinee.webp",
+			dark: "/assets/images/soiree.webp",
+			position: "center",
+		},
 		// 主页横幅文字
 		homeText: {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "Hachile",
+			title: "Matinée",
+			// 暗色模式主页横幅主标题
+			titleDark: "Soirée",
 			// 主页横幅主标题字体大小
 			titleSize: "clamp(2.8rem, 12vw, 4.5rem)",
 			// 主页横幅副标题
