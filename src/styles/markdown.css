@@ -3,6 +3,31 @@
 .custom-md {
   overflow-wrap: break-word;
 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  center,
+  figure {
+    max-width: 100%;
+  }
+
+  center {
+    display: block;
+    width: 100%;
+  }
+
+  figure {
+    width: 100%;
+  }
+
+  center > figure > img {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+  }
+
   body.sticky-navbar & {
     [id] {
       scroll-margin-top: 5.5rem;
@@ -221,4 +246,3 @@ body.wallpaper-transparent .custom-md {
     background-color: color-mix(in oklch, var(--btn-plain-bg-active) 68%, transparent);
   }
 }
-
