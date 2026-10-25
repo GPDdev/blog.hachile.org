@@ -39,8 +39,8 @@ export const navBarConfig: NavBarConfig = {
 			],
 		},
 		{
-			name: "Hachile 主站",
-			url: "https://hachile.org/",
+			name: "主站",
+			url: "https://home.hachile.org/",
 			external: true,
 			icon: "material-symbols:home-pin-outline",
 		},

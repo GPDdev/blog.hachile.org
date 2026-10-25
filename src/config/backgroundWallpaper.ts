@@ -65,9 +65,9 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "Matinée",
+			title: "",
 			// 暗色模式主页横幅主标题
-			titleDark: "Soirée",
+			titleDark: "",
 			// 主页横幅主标题字体大小
 			titleSize: "clamp(2.8rem, 12vw, 4.5rem)",
 			// 主页横幅副标题
@@ -95,7 +95,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 					name: "GitHub",
 					icon: "fa7-brands:github",
 					url: "https://github.com/GPDdev",
-					showName: true,
+					showName: false,
 				},
 				{
 					name: "主页",

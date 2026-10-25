@@ -1,5 +1,5 @@
 ---
-title: 欢迎来到 Hachile Blog
+title: 欢迎来到我的博客
 published: 2026-09-15
 description: 这里会记录我的学习、开发与生活。
 tags: [Hachile, Blog]
